@@ -26,5 +26,4 @@ from matplotlib.ticker import FormatStrFormatter
 from scipy.stats import kurtosis
 from scipy.stats import skew
 from scipy.stats import gmean
-
 from typing import Union, List
