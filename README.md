@@ -21,3 +21,8 @@ Jupyter notebook: 'Descriptive_stat_GitHub' contains descriptiv statistics of th
 Jupyter notebook: 'Descriptive stat(beta sorted)' contains descriptiv statistics on data sorted into three groups (30%,40%,30%) according to backward beta. Additional analysis of the distribution of average Tier 1 ratio and average book equity ratio is performed. Dependencies to file 'Load of data_GitHub'.
 
 Jupyter notebook: 'Deposits analysis' contains a calculation of deposit ratios for all banks. Banks are then sorted in to 10 groups according to backward beta and a tabel with average disposit ratios are displayed. Dependencies to file 'Load of data_GitHub' and 'Low risk anomaly_use'.
+
+Jupyter notebook: 'Capital ratio analysis' contains a analysis of the correlation between Tier 1 ratio and book equity ratio. Dependencies to file 'Load of data_GitHub'
+
+Jupyter notebook: 'Low risk anomaly_use' contains a calculation of backward and forward betas. Banks are then sorted into three groups (30%,40%,30%) according to betas (both backward and forward) and then a value- and equal-weighted portfolio is created in each group. To examine the low risk anomaly, then backward betas and alphas are estimated for the backward sorted portfolios. This gives 6 pairs of alpha and betas that an extra linear regression is performed to determine the strenght of the low risk anomaly. Dependencies to file 'Load of data_GitHub'
+
