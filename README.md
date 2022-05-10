@@ -26,3 +26,11 @@ Jupyter notebook: 'Capital ratio analysis' contains a analysis of the correlatio
 
 Jupyter notebook: 'Low risk anomaly_use' contains a calculation of backward and forward betas. Banks are then sorted into three groups (30%,40%,30%) according to betas (both backward and forward) and then a value- and equal-weighted portfolio is created in each group. To examine the low risk anomaly, then backward betas and alphas are estimated for the backward sorted portfolios. This gives 6 pairs of alpha and betas that an extra linear regression is performed to determine the strenght of the low risk anomaly. Dependencies to file 'Load of data_GitHub'
 
+Jupyter notebook: 'Low risk anomaly - reduced time period' contains the same as file 'Low risk anomaly_use', however the data is reduced to end in 2011. Dependencies to file 'Load of data_GitHub' and 'Low risk anomaly_use'. 
+
+Jupyter notebook: 'Low risk anomaly_use10port' contains the same as file 'Low risk anomaly_use', however banks are sorted into 10 equal sized groups instead of 3. Dependencies to file 'Load of data_GitHub'.
+
+Jupyter notebook: 'Low risk anomaly_useNoCrisis' contains the same as file 'Low risk anomaly_use', however data from Januar 2007 to February 2009 is removed. Dependencies to file 'Load of data_GitHub'.
+
+Jupyter notebook: 'BW Step 1 - Regression backward beta' contains calculations of inverse tier 1 ratio and inverse tier 1/RWA ratio along with linare and kernel regression of backward beta on inverse tier 1 ratio. Dependencies to file 'Load of data_GitHub' and 'Low risk anomaly_use'. 
+
