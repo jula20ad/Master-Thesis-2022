@@ -32,5 +32,12 @@ Jupyter notebook: 'Low risk anomaly_use10port' contains the same as file 'Low ri
 
 Jupyter notebook: 'Low risk anomaly_useNoCrisis' contains the same as file 'Low risk anomaly_use', however data from Januar 2007 to February 2009 is removed. Dependencies to file 'Load of data_GitHub'.
 
-Jupyter notebook: 'BW Step 1 - Regression backward beta' contains calculations of inverse tier 1 ratio and inverse tier 1/RWA ratio along with linare and kernel regression of backward beta on inverse tier 1 ratio. Dependencies to file 'Load of data_GitHub' and 'Low risk anomaly_use'. 
+Jupyter notebook: 'BW Step 1 - Regression backward beta' contains calculations of inverse tier 1 ratio and inverse tier 1/RWA ratio along with linare and kernel regression of backward beta on inverse tier 1 ratio. The linear regression is also performed for a shorted data sample with ending in 2011. Dependencies to file 'Load of data_GitHub' and 'Low risk anomaly_use'. 
 
+Jupyter notebook: 'BW Step 1 - Regression forward beta' contains calculations of inverse tier 1 ratio and inverse tier 1/RWA ratio along with linare and kernel regression of forward beta on inverse tier 1 ratio. The linear regression is also performed for a shorted data sample with ending in 2011. Additionally, a theroretic graph of the expected relationship between equity beta and leverage is constructed. Dependencies to file 'Load of data_GitHub' and 'Low risk anomaly_use'. 
+
+Jupyter notebook: 'BW Step 1 - Kernel large banks forward beta' contains linear and kernal regression of forward betas on inverse tier 1 ratio for large banks. Large banks are define as banks with a market value above 1 billion €. Dependencies to file 'Load of data_GitHub' and 'Low risk anomaly_use'. 
+
+Jupyter notebook: 'BW Step 1 - tabel - backward beta' contains 3 sorting of banks according to Book equity ratio, Tier 1 ratio, and Tier 1 ratio/RWA ratio. Within each sorting 10 equal-sized deciles are determine. In each decile a value- and equal-weighted portfolio is calculated. Then the backward beta is regressed and reported for each portfolio along with the average capital ratio. Last a piecewise regression is performed on backward beta and inverse tier 1 ratio. Dependencies to file 'Load of data_GitHub'.
+
+Jupyter notebook: 'BW Step 1 - tabel - forward beta' contains calculation of the forward beta for each portfolio in each decile that are calculated in the file 'BW Step 1 - tabel - backward beta'. Both average capital ratio and forward beta is reported. A piecewise  regression is performed on forward beta and inverse tier 1 ratio. Dependencies to file 'Load of data_GitHub' and 'BW Step 1 - tabel - backward beta'.
