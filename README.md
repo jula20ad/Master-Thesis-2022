@@ -3,18 +3,10 @@ Master Thesis - Do stricter capital requirements raise the cost of capital of ba
 
 The code for Rebecca Schwartz and Julie Laustsens' master thesis for the MSc in Finance and Investment at Copenhagen Business School.
 
-The data and analysis is divided into 18 files, 4 excel and 14 jupyter notebooks. In every notebook a path is set in the begining of the file.
+The analysis is divided into 14 jupyter notebooks. In every notebook a path is set in the begining of the file.
 
 __________________________________
-Excel file: 'Eikon_data_to_python' contains cleaned data from 1999-2021 on the 226 European banks. 
-
-Excel file: 'euribor-ready_to_python' contains the 1 month EURIBOR rate excressed in monthly rate from 1999-2021. The EURIBOR rate is used as the risk free rate in the analysis.
-
-Excel file: 'market data to python' contains the monthly prices on MSCI Europe Investable Market Index from 1999 to 2021. 
-
-Excel file: 'Country dist' containts a list with 226 banks and their belonging country. 
-
-Jupyter notebook: 'Load of data_GitHub' contains further data cleaning, return and ratio calculations, and outlier treatment. Additionally, a banks affiliation country is connected to the data (link between data Eikon_data_to_python & Country dist.) 
+Jupyter notebook: 'Load of data_GitHub' contains further data cleaning, return and ratio calculations, and outlier treatment. Additionally, a banks affiliation country is connected to the data.
 
 Jupyter notebook: 'Descriptive_stat_GitHub' contains descriptiv statistics of the data overall and on country level. Additionally, a equal- and value-weighted portfolio is constructed with all banks and the distribution of excess return is examined. Dependencies to file 'Load of data_GitHub'.
 
